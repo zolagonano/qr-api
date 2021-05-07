@@ -61,7 +61,9 @@ fn decode(qr_base64: String) -> Result<Json<String>, Json<String>> {
             Err(Json(String::from("Error: Cannot load this image")))
         }
     } else {
-        Err(Json(String::from("Error: Cannot decode this base64 encode")))
+        Err(Json(String::from(
+            "Error: Cannot decode this base64 encode",
+        )))
     }
 }
 
