@@ -6,6 +6,12 @@ edition = "2018"
 
 [dependencies]
 rocket = "0.4.7"
+qrcode = "0.12"
+rqrr = "0.3.2"
+image = "0.23.14"
+base64 = "0.13.0"
+serde = "1.0.124"
+serde_derive = "1.0.124"
 
 [dependencies.rocket_contrib]
 version = "0.4.7"
