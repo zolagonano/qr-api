@@ -117,7 +117,7 @@ git push heroku master
 - If you want to run this project on a VPS, you need rustup with the nightly toolchain.
 - To install rustup and nightly toolchain you can check [rustup.rs](https://rustup.rs).
 
-# Install from the source code:
+### Install from the source code:
 
 1. Clone this repository:
 
