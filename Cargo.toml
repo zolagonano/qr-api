@@ -3,6 +3,14 @@ name = "qr-api"
 version = "0.1.0"
 authors = ["Zola Gonano <zolagonano@protonmail.com>"]
 edition = "2018"
+description = "A simple and fast QRcode encoder/decoder API written in rust."
+homepage = "https://github.com/zolagonano/qr-api.git"
+repository = "https://github.com/zolagonano/qr-api.git"
+keywords = ["api", "qrcode", "qr", "encode", "decode", "json"]
+categories = ["encoding", "web-programming::http-server", ]
+license = "MIT"
+readme = "README.md"
+
 
 [dependencies]
 rocket = "0.4.7"
