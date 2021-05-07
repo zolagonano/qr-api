@@ -81,7 +81,7 @@ The output of the command above will be `hello`.
 
 If you want to run this API by yourself, you have two options(maybe more than two):
 
-- Deploy to [Heroku]("https://heroku.com").
+- Deploy to [Heroku](https://heroku.com).
 - Run it on a VPS.
 
 ### Deploy to Heroku:
