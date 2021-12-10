@@ -15,14 +15,8 @@ fn encode(
     width: Option<u32>,
     height: Option<u32>,
 ) -> Result<Json<String>, Json<String>> {
-    let width = match width {
-        Some(v) => v,
-        None => 128,
-    };
-    let height = match height {
-        Some(v) => v,
-        None => 128,
-    };
+    let width = width.unwrap_or(128);
+    let height = height.unwrap_or(128);
 
     if let Ok(qrcode) = QrCode::new(text.as_bytes()) {
         let qrcode_image_buffer = qrcode
